@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3498db; /* Background color */
+    color: #ffffff; /* Text color */
+}
+
+.container {
+    text-align: center;
+    background-color: #2c3e50; /* Container background color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e74c3c; /* Heading color */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ecf0f1; /* Input background color */
+    color: #2c3e50; /* Input text color */
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #714409; /* Button background color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e100f;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.error-message {
+    color: #e74c3c; /* Error message color */
+}
+ 
